@@ -1,0 +1,18 @@
+# Source files
+src/
+__tests__/
+*.test.ts
+
+# Development configs
+.vscode/
+.prettierignore
+.gitignore
+tsconfig.json
+
+# Build artifacts and coverage
+coverage/
+dist/*.test.*
+
+# Misc
+.DS_Store
+*.log 

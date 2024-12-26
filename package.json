@@ -1,0 +1,47 @@
+{
+  "name": "json-versioned",
+  "version": "1.0.0",
+  "description": "A TypeScript library for managing JSON data versioning and migrations with a clean, declarative API.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts",
+    "prepare": "npm run build",
+    "format": "prettier --write \"src/**/*.{ts,tsx,js,jsx,json,md}\"",
+    "format:check": "prettier --check \"src/**/*.{ts,tsx,js,jsx,json,md}\""
+  },
+  "keywords": [
+    "json",
+    "versioning",
+    "migrations",
+    "typescript"
+  ],
+  "author": "Yann Deshayes",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.24",
+    "@typescript-eslint/eslint-plugin": "^7.1.0",
+    "@typescript-eslint/parser": "^7.1.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "jest": "^29.7.0",
+    "prettier": "^3.4.2",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.3.3"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ydeshayes/json-versioned.git"
+  },
+  "homepage": "https://github.com/ydeshayes/json-versioned#readme",
+  "bugs": {
+    "url": "https://github.com/ydeshayes/json-versioned/issues"
+  }
+}
